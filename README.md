@@ -81,6 +81,15 @@ The search functionality doesn't work as expected and is under development
 ## Site Live Link
 [https://evan-award-ups.herokuapp.com/](https://evan-award-ups.herokuapp.com/)
 
+
+## API endpoints
+This application comes with two API Endpoints:
+
+- Profiles API Endpoint - https://evan-award-ups.herokuapp.com/api/profiles/ 
+
+- Projects API Endpoint - https://evan-award-ups.herokuapp.com/api/projects/
+
+
 #### Collaborate
 >Incase of any questions, problems or ideas concerning the app, feel free to reach out to me:
 >>Github: [Evans Nyambane](https://github.com/DjCooGie)
