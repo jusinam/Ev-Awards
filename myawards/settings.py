@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import django_heroku
+import dj_database_url
+from decouple import config, Csv
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,12 +34,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'star_ratings',
     'awards.apps.AwardsConfig',
     'bootstrap3',
     'tinymce',
     'crispy_forms',
     'django_countries',
-    'star_ratings',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -143,3 +146,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 LOGIN_REDIRECT_URL ='/'
 STAR_RATINGS_RANGE = 5
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
