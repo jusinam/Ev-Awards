@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from crispy_forms.helper import FormHelper
 from registration.forms import RegistrationForm
+from .models import *
 
 class RegisterForm(RegistrationForm):
     
@@ -16,3 +17,11 @@ class RegisterForm(RegistrationForm):
         for fieldname in ['username', 'password1', 'password2']:
             self.fields[fieldname].help_text = None
         self.helper.form_show_labels = True 
+
+class NewProjectForm(forms.ModelForm):
+    class Meta:
+        model = Project
+        exclude = ['Author', 'pub_date', 'author_profile']
+        widgets = {
+          'project_description': forms.Textarea(attrs={'rows':4, 'cols':10,}),
+        }
