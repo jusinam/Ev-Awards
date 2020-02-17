@@ -3,7 +3,6 @@ import datetime as dt
 from django.contrib.auth.models import User
 from PIL import Image
 from django_countries.fields import CountryField
-from star_ratings.models import Rating
 
 # Create your models here.
 
@@ -56,15 +55,13 @@ class Project(models.Model):
     
     @classmethod
     def search_projects(cls, search_term):
-        projects = cls.objects.filter(p_title__icontains=search_term)
+        projects = cls.objects.filter(project_title__icontains=search_term)
         return projects
-    
     
     @classmethod
     def get_by_author(cls, Author):
         projects = cls.objects.filter(Author=Author)
         return projects
-    
     
     @classmethod
     def get_project(request, id):
