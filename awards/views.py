@@ -69,3 +69,15 @@ def new_project(request):
     return render(request, 'new_project.html', {"form": form})
 
 
+def get_project(request, id):
+    
+    try:
+        project = Project.objects.get(pk = id)
+        
+    except ObjectDoesNotExist:
+        raise Http404()
+    
+    
+    return render(request, "projects.html", {"project":project})
+  
+
