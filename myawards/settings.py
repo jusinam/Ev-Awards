@@ -35,6 +35,9 @@ INSTALLED_APPS = [
     'bootstrap3',
     'tinymce',
     'crispy_forms',
+    'django_countries',
+    'star_ratings',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -139,3 +142,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 LOGIN_REDIRECT_URL ='/'
+STAR_RATINGS_RANGE = 5
