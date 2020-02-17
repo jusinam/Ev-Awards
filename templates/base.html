@@ -27,16 +27,22 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
+<link href="https://fonts.googleapis.com/css?family=Dosis:500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:300&display=swap" rel="stylesheet">
+
+ <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="{% static 'star-ratings/css/star-ratings.css' %}">
+
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
   {% endblock %}
 
 </head>
 
-<body class="grey lighten-5 heavy-rain-gradient ">
+<body class="" style="font-family: 'Saira Semi Condensed', sans-serif;" >
   {% include "navbar.html" %}
 
 
@@ -61,6 +67,8 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Plugin file -->
   <script src="./js/addons/datatables.min.js"></script>
+  <script type="text/javascript" src="{% static 'star-ratings/js/dist/star-ratings.min.js' %}"></script>
+
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
