@@ -97,4 +97,4 @@ This application comes with two API Endpoints:
 
 #### License
 MIT
-&copy;2020 Evans Nyambane
+&copy;2020 Evans Onchagwa
