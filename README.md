@@ -2,7 +2,7 @@
 A django generated application that allows users to their done projects and other peers(basically other users) are able to preview and rate them.
 
 ## Author
-* Evans Nyambane
+* Evans Onchagwa
 
 
 ### E~AWARDS
