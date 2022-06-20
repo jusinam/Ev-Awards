@@ -2,7 +2,7 @@
 A django generated application that allows users to their done projects and other peers(basically other users) are able to preview and rate them.
 
 ## Author
-* Evans Onchagwa
+* Evans ON
 
 
 ### E~AWARDS
@@ -41,7 +41,7 @@ A django generated application that allows users to their done projects and othe
   [Here's](https://www.python.org/) a brief intro about what a developer must do in order to start running the app locally:
 
   ```
-  $ git clone https://github.com/DjCooGie/Ev-Awards.git
+  $ git clone https://github.com/jusinam/Ev-Awards.git
   $ cd Ev-Awards/
   ```
   * create a virtual environment
@@ -79,7 +79,7 @@ Launch the application locally by running the command
 The search functionality doesn't work as expected and is under development
 
 ## Site Live Link
-[https://evan-award-ups.herokuapp.com/](https://evan-award-ups.herokuapp.com/)
+[Click here](https://evan-award-ups.herokuapp.com/)
 
 
 ## API endpoints
@@ -92,9 +92,8 @@ This application comes with two API Endpoints:
 
 #### Collaborate
 >Incase of any questions, problems or ideas concerning the app, feel free to reach out to me:
->>Github: [Evans Nyambane](https://github.com/DjCooGie)
->>Email: evansonchagwa01@gmail.com
+>>Email: [Send mail](mailto:evansonchagwa01@gmail.com)
 
 #### License
 MIT
-&copy;2020 Evans Onchagwa
+&copy;2020 Evans ON
