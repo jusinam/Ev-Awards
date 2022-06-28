@@ -1,5 +1,5 @@
 # E~AWARDS
-A django generated application that allows users to their done projects and other peers(basically other users) are able to preview and rate them.
+A django generated application that allows users to submit their done projects, get reviewed by other peers(basically other users) by previewing and rating them.
 
 ## Author
 * Evans ON
